@@ -1,3 +1,9 @@
 name = "sveltia-cms-auth"
 main = "src/index.js"
 compatibility_date = "2023-03-24"
+
+# Not secret. Kept here so that a deploy from this repository doesn't erase them.
+# GITHUB_CLIENT_SECRET stays an encrypted secret in the Cloudflare dashboard.
+[vars]
+ALLOWED_DOMAINS = "web.asblmustela.workers.dev,www.asblmustela.be,asblmustela.be"
+GITHUB_CLIENT_ID = "Ov23lig3kg1xmeplKE7B"
